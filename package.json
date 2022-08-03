@@ -1,0 +1,29 @@
+{
+  "name": "watchdog",
+  "version": "1.0.0",
+  "description": "Watch dog ethereum blockchain watcher library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover test.js"
+  },
+  "bin": {
+    "ethwatcher": "./bin/ethwatcher"
+  },
+  "keywords": [
+    "ethereum",
+    "watcher"
+  ],
+  "author": "Phong Do",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.15.0",
+    "didyoumean2": "^4.1.0",
+    "ethers": "^5.5.2",
+    "istanbul": "^1.0.0-alpha.2",
+    "simple-yaml-config": "^0.1.0"
+  },
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
+}
